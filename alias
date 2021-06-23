@@ -1,0 +1,1 @@
+push=$'\necho "git add " \ngit add .\necho "Enter the commit :"\nread commit\necho "git commit"\ngit commit -m "$commit"\ngit push -u'
